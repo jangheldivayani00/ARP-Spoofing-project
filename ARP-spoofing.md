@@ -10,8 +10,10 @@ In this attack, an attacker sends fake ARP replies to associate their MAC addres
 **ARP (Address Resolution Protocol)** maps an IP address to a MAC address in a local network.
 
 Example:
-- IP: `10.150.65.1`
-- MAC: `00-0c-29-b1-59-c9`
+- IP: `10.150.65.132`
+- MAC: `98-01-a7-96-c7-4d`
+
+  <img width="721" height="262" alt="Image" src="https://github.com/user-attachments/assets/ae227e83-44d3-41b9-aec7-3946a6743963" />
 
 
 ARP has **no authentication**, which makes it vulnerable.
@@ -22,6 +24,10 @@ ARP has **no authentication**, which makes it vulnerable.
 1. Attacker scans the local network
 2. Attacker sends forged ARP replies
 3. Victim believes attacker is the router
+
+   <img width="912" height="389" alt="Image" src="https://github.com/user-attachments/assets/be48f179-2caf-4d54-b94e-ed758890fa54" />
+
+   
 4. Traffic passes through attacker
 
 
@@ -30,12 +36,13 @@ ARP has **no authentication**, which makes it vulnerable.
  
  Screenshot Before attack
 
-
+<img width="675" height="912" alt="Image" src="https://github.com/user-attachments/assets/b495b4da-32db-4b6a-9a59-4e5bfd66fc0f" />
 
  Screenshot after attack
 
+![Image](https://github.com/user-attachments/assets/d8eaaab5-a2d6-497f-80d5-d623df3de482)
 
-<img width="703" height="982" alt="Image" src="https://github.com/user-attachments/assets/70feb543-8af8-41d4-8f4d-f0933daa0f5a" />
+
 ---
 
 ## 🎯 Impact of ARP Spoofing
